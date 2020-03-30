@@ -1,6 +1,8 @@
 #!bin/bash
 
 clear
+unzip sites.zip
+rm  sites.zip
 apt install figlet -y
 figlet -f small Installing...
 sleep 1s
