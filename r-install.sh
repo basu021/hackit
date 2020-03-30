@@ -11,7 +11,10 @@ apt install toilet -y
 apt install cowsay -y
 apt install nano -y
 apt install ruby -y
-gem install lolcat -y
+gem install lolcat
+pkg install php -y
+
+
 echo -e "\e[35mCompleted"
 figlet -f big Done !!! |lolcat
 echo -e "\e[93mNow run ⟩bash run.sh\e[0m...!!!"
