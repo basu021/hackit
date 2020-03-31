@@ -18,34 +18,34 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "⚠️ You need to install curl.
 
 menu() {
 
-echo -e "\e[38;5;124m1⟩𝕴𝖓𝖘𝖙𝖆𝖌𝖗𝖆𝖒\e"
+echo -e "\e[38;5;124m1⟩Instagram\e"
 echo ''
 sleep 0.5s
-echo -e "\e[38;5;92m2⟩𝕱𝖆𝖈𝖊𝖇𝖔𝖔𝖐\e"
+echo -e "\e[38;5;92m2⟩Facebook\e"
 echo ''
 sleep 0.5s
-echo -e "\e[38;5;208m3⟩S͊̕͠𝖓𝖆𝖕𝖈𝖍𝖆𝖙\e"
+echo -e "\e[38;5;208m3⟩Snapchat\e"
 echo ''
 sleep 1s
-echo -e "\e[38;5;25m4⟩𝕿𝖜𝖎𝖙𝖙𝖊𝖗\e"
+echo -e "\e[38;5;25m4⟩Twitter\e"
 echo ''
 sleep 1s
-echo -e "\e[38;5;134m5⟩𝕲𝖎𝖙𝖍𝖚𝖇\e"
+echo -e "\e[38;5;134m5⟩Githun\e"
 echo ''
 sleep 1s
-echo -e "\e[38;5;207m6⟩𝕲𝖔𝖔𝖌𝖑𝖊\e"          
+echo -e "\e[38;5;207m6⟩Google\e"          
 echo ''
 sleep 1s
-echo -e "\e[38;5;118m7⟩S͊̕͠𝖕𝖔𝖙𝖎𝖋𝓨\e"
+echo -e "\e[38;5;118m7⟩Spotify\e"
 echo ''
 sleep 1s
-echo -e "\e[38;5;9m8⟩𝕹𝖊𝖙𝖋𝖑𝖎𝖝\e"
+echo -e "\e[38;5;9m8⟩Netflix\e"
 echo ''
 
 
 
 
-read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] 𝑺𝒆𝒍𝒆𝒄𝒕 𝒂𝒏 𝒐𝒑𝒕𝒊𝒐𝒏 𝒕𝒐 𝒄𝒐𝒏𝒕𝒊𝒏𝒖𝒆: \e[0m' option
+read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Select an option to continue: \e[0m' option
 
 
 if [[ $option == 1 || $option == 01 ]]; then
