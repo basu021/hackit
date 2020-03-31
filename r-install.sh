@@ -12,7 +12,7 @@ apt install cowsay -y
 apt install nano -y
 apt install ruby -y
 gem install lolcat
-pkg install php -y
+pkg install php
 pkg install wget -y
 
 echo -e "\e[35mCompleted"
